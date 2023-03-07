@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>forawatch</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <a class="logo" href="#">
+            <img src="assets/images/header/logo.svg" alt="logo" width="87.75px" height="48px">
+        </a>
+        <nav class="header__nav">
+            <a class="header__nav__link" href="#">Team</a>
+            <a class="header__nav__link active" href="#">Main Page</a>
+            <a class="header__nav__link" href="#">About</a>
+            <a class="header__nav__link" href="#">Content</a>
+        </nav>
+        <div class="header__social-networks-links">
+            <a href="#">Follow us on</a>
+            <a href="#">
+                <img src="assets/images/header/twitter_icon.svg" alt="twitter">
+            </a>
+            <a href="#">
+                <img src="assets/images/header/facebook_icon.svg" alt="facebook">
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="main__container">
+            <div class="main__container__login">
+                <h2>Sign in</h2>
+                <form action="">
+                    <label>
+                        Enter your email
+                        <input type="text">
+                    </label>
+                    <label>
+                        Choose a nickname
+                        <input type="text">
+                    </label>
+                    <label>
+                        Imagine a password
+                        <input type="password">
+                    </label>
+                    <label>
+                        Repeat your password
+                        <input type="password">
+                    </label>
+                    <label>
+                        Choose your favorite movie/series genre
+                    <select id="genre" name="genre">
+                        <option value="comedy">Comedy</option>
+                        <option value="drama">Drama</option>
+                        <option value="detective">Detective</option>
+                        <option value="cartoons">Cartoons</option>
+                        <option value="anime">Anime</option>
+                      </select>
+                    </label>
+                    <button class="btn login-btn">Sign in</button>
+                    <a href="#">By signing in you agree with our Terms of Policy</a>
+                </form>
+                <button class="btn create-btn">Create an account</button>
+                <button class="btn google-btn">
+                    <img src="assets/images/login/google.svg" alt="google">
+                    Continue with Google
+                </button>
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+</html>
